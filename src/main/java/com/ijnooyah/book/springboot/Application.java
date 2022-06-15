@@ -1,11 +1,12 @@
 package com.ijnooyah.book.springboot;
 
+import com.ijnooyah.book.springboot.domain.user.Role;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 
-@EnableJpaAuditing // JPA AUditing 활성화
+//@EnableJpaAuditing // JPA AUditing 활성화
 @SpringBootApplication
 public class Application { // 앞으로 만들 프로젝트의 메인 클래스
     public static void main(String[] args) {
